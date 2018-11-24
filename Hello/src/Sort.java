@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 public class Sort {
+    //排序
     public static void main(String[] args) {
         int[] a = {45, 12, 78, 97, 10};
         int len = a.length;
