@@ -7,8 +7,8 @@ public class Internationalization {
     public static void main(String[] args) {
         Locale locale = new Locale("en","US");
 
-        ResourceBundle resourceBundle = ResourceBundle.getBundle("com.Language.info",locale);//不加Locale默认为本机中文
-//        ResourceBundle resourceBundle = ResourceBundle.getBundle("com.Language.info");
+//        ResourceBundle resourceBundle = ResourceBundle.getBundle("com.Language.info",locale);//不加Locale默认为本机中文
+        ResourceBundle resourceBundle = ResourceBundle.getBundle("com.Language.info");
 
         System.out.println(resourceBundle.getString("system.name"));
         System.out.println(resourceBundle.getString("input.username"));
